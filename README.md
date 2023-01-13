@@ -3,10 +3,10 @@
 A new Flutter project.
 
 Mirror Wall Project 
-name: avaiya kashyap 
+
 4th task:
  Write a Dart program which illustrates Future class with specific amount of duration. Also implement async and await keyword by using proper example.:-
-
+```Dart
   import 'dart:async';
   import 'dart:io';
  // int j=0;
@@ -24,13 +24,13 @@ name: avaiya kashyap
       }
         print(stars);
   }
-  }
 
   void main() {
     
     doSomethingWithDelay(5);
     print('Sorry for the delay cause my brain work slow');
   }
+  ```
                           
                           
 application video:- 
