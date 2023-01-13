@@ -31,7 +31,7 @@ class Global {
     //   'title': 'tile of web',
     //   'image': 'path of web logo',
     //   'url': 'web address url',
-    // },
+    // }
     {
       'title': 'Netflix',
       'image':
