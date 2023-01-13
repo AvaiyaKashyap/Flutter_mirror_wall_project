@@ -4,6 +4,35 @@ A new Flutter project.
 
 Mirror Wall Project 
 name: avaiya kashyap 
+4th task:
+ Write a Dart program which illustrates Future class with specific amount of duration. Also implement async and await keyword by using proper example.:-
+
+  import 'dart:async';
+  import 'dart:io';
+ // int j=0;
+  Future<void> doSomethingWithDelay(int duration) async {
+    print('number: ');
+      int? j = int.parse(stdin.readLineSync()!);
+    await Future.delayed(Duration(seconds: duration));
+    for(int i = 0 ; i< 7; i++){
+        var stars='';
+          for( j = (7-i); j! > 1 ;j--) {
+            stars += ' ';
+          }
+        for( j = 0; j! <= i ;j++){
+            stars += '* ';
+      }
+        print(stars);
+  }
+  }
+
+  void main() {
+    
+    doSomethingWithDelay(5);
+    print('Sorry for the delay cause my brain work slow');
+  }
+                          
+                          
 application video:- 
 
 
